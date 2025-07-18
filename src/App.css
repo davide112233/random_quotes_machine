@@ -1,0 +1,19 @@
+* {
+    transition: all 0.5s ease-in-out;
+}
+
+@media screen and (max-width: 431px) {
+    .card-quote-container{
+        width: 95% !important;
+    } 
+
+    .random-quote-card {
+        width: 70vw !important;
+    }
+}
+
+@media screen and (orientation: portrait) {
+    .card-quote-container {
+        width: 100% !important;
+    }
+}
